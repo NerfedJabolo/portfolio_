@@ -1,0 +1,80 @@
+.project {
+  margin-top: 250px;
+}
+
+.project h1 {
+  position: relative;
+}
+
+.project h1::after {
+  content: "";
+  background-image: url("https://images.squarespace-cdn.com/content/5e3aaef9b3593646244a2cc4/1580911115848-N7NEYQIHQWCBF63BLO19/Untitled-2-04.png?content-type=image%2Fpng");
+  width: 100px;
+  position: absolute;
+  right: 0;
+  bottom: -70%;
+  height: 40px;
+}
+
+.cards {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: 100px 0px;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-details {
+  width: 410px;
+}
+
+.card {
+  margin: auto;
+  text-align: center;
+  border: 2px solid rgb(205, 210, 213);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.card-details {
+  margin-top: 20px;
+}
+
+.card-details p {
+  margin-top: 11px;
+  color: rgb(205, 210, 213);
+}
+
+@media only screen and (max-width: 928px) {
+  .card-details {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 713px) {
+  .cards {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 100px 0px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    width: 90%;
+  }
+  .card-details {
+    width: 100%;
+  }
+}
+
+.card img {
+  transition: 0.3s all ease;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,22 @@
+.about {
+  margin-top: 320px;
+  width: 90%;
+}
+
+.about p {
+  color: rgb(205, 210, 213);
+}
+
+.about h1 {
+  position: relative;
+}
+
+.about h1::after {
+  content: "";
+  background-image: url("https://images.squarespace-cdn.com/content/5e3aaef9b3593646244a2cc4/1580911115848-N7NEYQIHQWCBF63BLO19/Untitled-2-04.png?content-type=image%2Fpng");
+  width: 100px;
+  position: absolute;
+  right: 0;
+  bottom: -70%;
+  height: 40px;
+}
