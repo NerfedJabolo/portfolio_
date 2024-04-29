@@ -1,8 +1,8 @@
-"use client";
-import React, { useEffect } from "react";
-import "./Project.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+'use client';
+import React, { useEffect } from 'react';
+import './Project.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Project = () => {
   useEffect(() => {
@@ -16,7 +16,7 @@ const Project = () => {
       <div className="project mx-auto" data-aos="zoom-in">
         <div className="sectionHeading">
           <h1 className="text-white text-2xl mx-auto w-fit">My projects</h1>
-          <div className="cards">
+          <div className="cards flex">
             <div className="card">
               <div className="card-details">
                 <h2>Vugo (Blog site)</h2>
@@ -31,7 +31,7 @@ const Project = () => {
                   alt=""
                   className="cursor-pointer"
                   onClick={() => {
-                    window.open("https://github.com/demss233/vugo");
+                    window.open('https://github.com/demss233/vugo');
                   }}
                 />
                 <img
@@ -39,7 +39,7 @@ const Project = () => {
                   alt=""
                   className="cursor-pointer"
                   onClick={() => {
-                    window.open("https://vugo-8kka.vercel.app/");
+                    window.open('https://vugo-8kka.vercel.app/');
                   }}
                 />
               </div>
@@ -59,7 +59,7 @@ const Project = () => {
                   className="cursor-pointer"
                   onClick={() => {
                     window.open(
-                      "https://github.com/demss233/portfolio_template"
+                      'https://github.com/demss233/portfolio_template'
                     );
                   }}
                 />
@@ -68,7 +68,7 @@ const Project = () => {
                   alt=""
                   className="cursor-pointer"
                   onClick={() => {
-                    window.open("https://shivvedant.github.io/portfolio/");
+                    window.open('https://shivvedant.github.io/portfolio/');
                   }}
                 />
               </div>
@@ -87,7 +87,7 @@ const Project = () => {
                   alt=""
                   className="cursor-pointer"
                   onClick={() => {
-                    window.open("https://github.com/demss233/Aniline");
+                    window.open('https://github.com/demss233/Aniline');
                   }}
                 />
                 <img
@@ -95,7 +95,7 @@ const Project = () => {
                   alt=""
                   className="cursor-pointer"
                   onClick={() => {
-                    window.open("https://aniline.cyclic.app/");
+                    window.open('https://aniline.cyclic.app/');
                   }}
                 />
               </div>
@@ -114,7 +114,7 @@ const Project = () => {
                   alt=""
                   className="cursor-pointer"
                   onClick={() => {
-                    window.open("https://github.com/demss233/Argon");
+                    window.open('https://github.com/demss233/Argon');
                   }}
                 />
                 <img
@@ -122,7 +122,7 @@ const Project = () => {
                   alt=""
                   className="cursor-pointer"
                   onClick={() => {
-                    window.open("https://argon-one.vercel.app/");
+                    window.open('https://argon-one.vercel.app/');
                   }}
                 />
               </div>

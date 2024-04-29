@@ -2,12 +2,6 @@ html {
   user-select: none;
 }
 
-.hero {
-  width: 90%;
-  margin-top: 170px;
-  text-align: center;
-}
-
 .hero h1 {
   position: relative;
   width: fit-content;
@@ -15,8 +9,8 @@ html {
 }
 
 .hero h1::after {
-  content: "";
-  background-image: url("https://images.squarespace-cdn.com/content/5e3aaef9b3593646244a2cc4/1580911115848-N7NEYQIHQWCBF63BLO19/Untitled-2-04.png?content-type=image%2Fpng");
+  content: '';
+  background-image: url('https://images.squarespace-cdn.com/content/5e3aaef9b3593646244a2cc4/1580911115848-N7NEYQIHQWCBF63BLO19/Untitled-2-04.png?content-type=image%2Fpng');
   width: 100px;
   position: absolute;
   right: 0;

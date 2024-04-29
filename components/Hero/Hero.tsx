@@ -1,8 +1,8 @@
-"use client";
-import React, { useEffect } from "react";
-import "./Hero.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+'use client';
+import React, { useEffect } from 'react';
+import './Hero.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = () => {
   useEffect(() => {
@@ -13,7 +13,10 @@ const Hero = () => {
 
   return (
     <>
-      <div className="hero flex flex-col g-2 mx-auto" data-aos="zoom-in">
+      <div
+        className="hero flex flex-col g-2 mx-auto text-center"
+        data-aos="zoom-in"
+      >
         <h1 className="text-white text-5xl font-semibold">Shiv Satyam</h1>
         <h2 className="mt-7 text-2xl">
           Web Developer / Competitive Programmer / ML Enthusiast.

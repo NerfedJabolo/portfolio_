@@ -1,14 +1,10 @@
-.project {
-  margin-top: 250px;
-}
-
 .project h1 {
   position: relative;
 }
 
 .project h1::after {
-  content: "";
-  background-image: url("https://images.squarespace-cdn.com/content/5e3aaef9b3593646244a2cc4/1580911115848-N7NEYQIHQWCBF63BLO19/Untitled-2-04.png?content-type=image%2Fpng");
+  content: '';
+  background-image: url('https://images.squarespace-cdn.com/content/5e3aaef9b3593646244a2cc4/1580911115848-N7NEYQIHQWCBF63BLO19/Untitled-2-04.png?content-type=image%2Fpng');
   width: 100px;
   position: absolute;
   right: 0;
@@ -23,11 +19,12 @@
   grid-gap: 100px 0px;
   margin-top: 70px;
   display: grid;
+  gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .card-details {
-  width: 410px;
+  width: 350px;
 }
 
 .card {
@@ -61,6 +58,7 @@
     grid-gap: 100px 0px;
     margin-top: 70px;
     display: grid;
+    gap: 2rem;
     grid-template-columns: repeat(1, 1fr);
   }
   .card {
