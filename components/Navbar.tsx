@@ -1,24 +1,25 @@
-"use client";
-import React from "react";
-import "./Navbar.css";
-import { motion, useAnimationControls } from "framer-motion";
-import { useState, useEffect } from "react";
+'use client';
+import React from 'react';
+import './Navbar.css';
+import { motion, useAnimationControls } from 'framer-motion';
+import { useState, useEffect } from 'react';
 
+//million-ignore
 const Navbar = () => {
   const [toggled, setToggled] = useState(false);
 
   const navbarVariants = {
     open: {
-      height: "280px",
+      height: '280px',
       transition: {
-        type: "spring",
+        type: 'spring',
         duration: 0.6,
       },
     },
     close: {
-      height: "90px",
+      height: '90px',
       transition: {
-        type: "spring",
+        type: 'spring',
         duration: 0.6,
       },
     },
@@ -28,9 +29,9 @@ const Navbar = () => {
 
   useEffect(() => {
     if (toggled) {
-      navbarController.start("open");
+      navbarController.start('open');
     } else {
-      navbarController.start("close");
+      navbarController.start('close');
     }
   }, [toggled]);
 
